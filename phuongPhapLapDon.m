@@ -1,4 +1,4 @@
-%by FamiHug at FAMILUG.com
+%by FamiHug at FAMILUG.com tested on Octave 3.2.4
 function nghiem = phuongPhapLapDon(A, b, time)
 %Dau vao la ma tran A, vecto b, so lan lap.
 %Dau ra la nghiem cua bai toan nhan duoc sau so lan lap nhap vao
