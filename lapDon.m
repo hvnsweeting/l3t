@@ -18,7 +18,7 @@ Beta = b;
 for i=1:size(A,1)
 	Beta(i,1) = b(i,1) ./ (A(i,i));
 	A(i,:) ./= A(i,i);
-endfor
+end
 
 Alpha = eye(size(A)) - A
 Beta = Beta
@@ -34,8 +34,8 @@ if chuanHang < 1
 	for i=1:time
 		fprintf('Lap lan thu %d\n', i)
 		X = Alpha * X + Beta
-	endfor
-endif
+	end
+end
 
 nghiem = X;
 end
