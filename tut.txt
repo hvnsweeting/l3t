@@ -1,3 +1,24 @@
+Run K-mean:
+[centroids, idx] = runkMeans(X, init_centroid, max_iters, true)
+
+Compute singular value decomposition of A
+A = U * S * V'
+[U, S, V] = svd(A)
+
+Read an image:
+A = imread('pic.png')
+
+Append by vector:
+X = []
+for...
+	X = [X; A(i,:)]
+
+Append and flatten
+X = []
+for ...
+	X = [X, A(i, :)] %or X = [X A(i,:)]
+
+
 %use tic/toc for timing
 >>tic;i=1:10;toc
 
