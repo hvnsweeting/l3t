@@ -1,5 +1,5 @@
-Run K-mean:
-[centroids, idx] = runkMeans(X, init_centroid, max_iters, true)
+any(X)
+all(X)
 
 Compute singular value decomposition of A
 A = U * S * V'
